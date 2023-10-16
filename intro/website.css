@@ -1,0 +1,60 @@
+
+.Stock-paragraph {
+    color: rgb(0,118,0);
+    font-weight: bold;
+    font-family: Verdana;
+   }
+   .cart-button{
+     background-color: rgb(255, 216, 20);
+     border-radius: 18px;
+     border: none;
+     cursor: hand;
+     height: 30px;
+     width: 110;
+     font-weight: bold;
+     font-family: Verdana;
+     margin-right: 8px;
+     transition: opacity 0.15s;
+   }
+   .cart-button:active{
+   opacity:0.3
+   }
+   
+   .cart-button:hover{
+     background-color: rgb(247,202,0); 
+   }
+   .cart-button:active{
+   opacity:0.3
+   }
+   .buy-button{
+     border-radius: 18px;
+     background-color: rgb(255,164,28);
+     font-weight: bold;
+     height: 30px;
+     width: 110;
+     border: none;
+     font-family: Verdana;
+     cursor: hand;
+     margin-left: 8px;
+     transition: opacity 0.15s;
+     
+   }
+   .buy-button:hover{
+    background-color: rgb(250,137,0); 
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+   }
+   .buy-button:active{
+   opacity:0.5
+   }
+   .Nike-paragraph{
+     font-weight: bold;
+     font-size: 24px;
+     font-family: Verdana;
+   }
+   .link{
+     cursor: hand;
+   }
+   .link:hover{
+     color:  blueviolet;
+   
+   }

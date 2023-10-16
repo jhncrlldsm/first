@@ -1,0 +1,52 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.first-column, .second-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+.thumbnail {
+    width: 100%;
+    margin-bottom: 12px;
+   
+}
+
+.video-title {
+    margin-bottom: 20px;
+    font-family: Roboto, Arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.video-author, .video-views {
+    font-family: Roboto, Arial;
+    color: #AAAAAA;
+    font-size: 12px;
+    
+}
+.pic {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.hope {
+    display: grid;
+    grid-template-columns: 50px 250px;
+   column-gap: 12px;
+   margin-bottom: 40px;
+}
+.first-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 50px;
+}
+.second-column  {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+

@@ -1,0 +1,31 @@
+.photo {
+    width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.search {
+    font-family: Arial;
+    font-size: 20px;
+    border: none;
+    vertical-align: middle;
+}
+.button {
+        background-color:  rgb(29, 155, 240) ;
+        font-family: Arial;
+        font-size: 16px;
+        border-radius: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        font-weight: bold;
+        border: none;
+        vertical-align: middle;
+}
+.button:hover {
+    background-color: rgb(18, 93, 143)  ;
+}
